@@ -8,6 +8,9 @@ The main questions to this project are: Which countries are the most dominant? H
 
 To answer the main question, a data set from Kaggle was chosen, which consists of three distinct tables : athleteEvents.csv, medal_pop_gdp_data_statlearn.csv and nocRegions.csv.
 
+athleteEvents.csv : https://www.kaggle.com/datasets/heesoo37/120-years-of-olympic-history-athletes-and-results
+medal_pop_gdp_data_statlearn.csv and nocRegions.csv : in the dataset folder.
+
 This study was done by collecting the data for 2008, 2012 and 2016 Olympics data. The countries that had won at least one gold medal are considered. The data consists of 71 countries and the features are country name, its GDP and population and the medals won at 2008,2012 and 2016 Olympics.
 
 To create the visualisations we will use three different data frames. After reviewing the dataset, it was decided not to eliminate any data and instead to use the dplyr package to manipulate and alter the data to make it more applicable and realistic. 
