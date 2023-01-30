@@ -6,6 +6,14 @@ The main purpose is to demonstrate how we can benefit from the built system’s 
 
 The main questions to this project are: Which countries are the most dominant? How has involvement evolved? Which countries have the most medals in various disciplines? What is the ratio of female/male Olympic attendees? What will be the most probable result of next years olympic?
 
+To answer the main question, a data set from Kaggle was chosen, which consists of three distinct tables : athleteEvents.csv, medal_pop_gdp_data_statlearn.csv and nocRegions.csv.
+
+This study was done by collecting the data for 2008, 2012 and 2016 Olympics data. The countries that had won at least one gold medal are considered. The data consists of 71 countries and the features are country name, its GDP and population and the medals won at 2008,2012 and 2016 Olympics.
+
+To create the visualisations we will use three different data frames. After reviewing the dataset, it was decided not to eliminate any data and instead to use the dplyr package to manipulate and alter the data to make it more applicable and realistic. 
+
+Various libraries were used which helped to interpret the data such as library(“gganimate”), library(“data.table”), library(“knitr”), library(“gridExtra”), library(“tidyverse”), library(“plotly”), library(“ggplot2").
+
 For prediction of the Olympic medals we have made four models using different algorithm and selected the model which predicts the medals most similar to the medal won by the countries in actual Olympics.
 The algorithm used are:
 
