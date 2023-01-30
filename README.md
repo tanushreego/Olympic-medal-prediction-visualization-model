@@ -8,7 +8,8 @@ The main questions to this project are: Which countries are the most dominant? H
 
 For prediction of the Olympic medals we have made four models using different algorithm and selected the model which predicts the medals most similar to the medal won by the countries in actual Olympics.
 The algorithm used are:
-#Linear Regression Model
-#Linear transform to log transformed value
-#Poisson Regression
-#Negative Binomial Regression
+
+Linear Regression Model,
+Linear transform to log transformed value,
+Poisson Regression,
+Negative Binomial Regression,
