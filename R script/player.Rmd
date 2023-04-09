@@ -1,0 +1,35 @@
+---
+title: "player and sports"
+author: "Dv project"
+date: "2023-03-22"
+output: html_document
+---
+
+# LOAD DATA hockey_players_stats
+```{r}
+hockey_players_stats <- read.csv("/Users/tanushree/Desktop/Projects/DV Project/datasets/hockey_players_stats.csv")
+head(hockey_players_stats)
+dim(hockey_players_stats)
+summary(hockey_players_stats)
+```
+
+# LOAD DATA hockey_results
+```{r}
+hockey_results <- read.csv("/Users/tanushree/Desktop/Projects/DV Project/datasets/hockey_results.csv")
+head(hockey_results)
+dim(hockey_results)
+summary(hockey_results)
+
+```
+
+# LOAD DATA Coaches
+```{r}
+coaches <- read.csv("/Users/tanushree/Desktop/Projects/DV Project/datasets/coaches.csv")
+head(coaches)
+dim(coaches)
+summary(coaches)
+```
+
+
+
+

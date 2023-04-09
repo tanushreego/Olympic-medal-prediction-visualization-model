@@ -1,0 +1,90 @@
+---
+title: "DV Project"
+author: "Tanushree Gorai, Poulami Bera, Vansh Shan"
+date: "2023-01-18"
+output:
+  pdf_document: default
+  html_document: default
+---
+#LOAD THE LIBRARIES
+```{r}
+library(dplyr)
+library(data.table)
+```
+
+# LOAD ATHLETES EVENTS DATA
+```{r}
+dataOlympics <- read.csv("/Users/tanushree/Desktop/Projects/DV Project/datasets/athleteEvents.csv")
+head(dataOlympics)
+```
+
+
+# LOAD DATA MATCHING NOCs (NATIONAL OLYMPIC COMMITTEE) WITH COUNTRIES
+```{r}
+NOCs <- read.csv("/Users/tanushree/Desktop/Projects/DV Project/datasets/nocRegions.csv")
+head(NOCs)
+```
+
+# LOAD DATA medals
+```{r}
+medals <- read.csv("/Users/tanushree/Desktop/Projects/DV Project/datasets/medal_pop_gdp_data_statlearn.csv")
+head(medals)
+```
+
+# LOAD DATA Athletes
+```{r}
+athletes <- read.csv("/Users/tanushree/Desktop/Projects/DV Project/datasets/athletes.csv")
+head(athletes)
+```
+
+# LOAD DATA Coaches
+```{r}
+coaches <- read.csv("/Users/tanushree/Desktop/Projects/DV Project/datasets/coaches.csv")
+head(coaches)
+```
+
+# LOAD DATA curling_results
+```{r}
+curling_results <- read.csv("/Users/tanushree/Desktop/Projects/DV Project/datasets/curling_results.csv")
+head(curling_results)
+```
+
+# LOAD DATA entries_discipline
+```{r}
+entries_discipline <- read.csv("/Users/tanushree/Desktop/Projects/DV Project/datasets/entries_discipline.csv")
+head(entries_discipline)
+```
+
+# LOAD DATA events
+```{r}
+events <- read.csv("/Users/tanushree/Desktop/Projects/DV Project/datasets/events.csv")
+head(events)
+```
+
+# LOAD DATA hockey_players_stats
+```{r}
+hockey_players_stats <- read.csv("/Users/tanushree/Desktop/Projects/DV Project/datasets/hockey_players_stats.csv")
+head(hockey_players_stats)
+```
+
+# LOAD DATA hockey_results
+```{r}
+hockey_results <- read.csv("/Users/tanushree/Desktop/Projects/DV Project/datasets/hockey_results.csv")
+head(hockey_results)
+```
+
+# LOAD DATA medals_total
+```{r}
+medals_total <- read.csv("/Users/tanushree/Desktop/Projects/DV Project/datasets/medals_total.csv")
+head(medals_total)
+```
+
+
+# LOAD DATA technical_officials
+```{r}
+technical_officials <- read.csv("/Users/tanushree/Desktop/Projects/DV Project/datasets/technical_officials.csv")
+head(technical_officials)
+```
+
+
+
